@@ -2,7 +2,7 @@
 ## 📋 Project Overview
 
 Re-degradation-guided self-supervised low-light image enhancement unifies model-driven priors and data-driven learning for noise-free and perceptually faithful low-light image enhancement in a self-supervised manner. Based on Retinex theory, our method employs two synergistic re-degradation mechanisms, re-noising for reflectance consistency and re-lighting for illumination invariance, to jointly disentangle reflectance and illumination while suppressing noise. The enhanced image is reconstructed by refining illumination and recombining it with denoised reflectance. A self-adaptive adjustment strategy further ensures adaptive and high-quality illumination enhancement.
-<div align=center><img src="RGRD.png" height = "100%" width = "100%"/></div>
+<div align=center><img src="main.png" height = "100%" width = "100%"/></div>
 
 
 ### 🔧 Environment Setup
