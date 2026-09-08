@@ -8,9 +8,6 @@ RGRD (Retinex-Guided Re-Degradation) unifies model-driven priors and data-driven
 ### 🔧 Environment Setup
 In this project, we use Ubuntu 22.04.5, Python 3.9.19, Pytorch 2.7.1+cu126 and one NVIDIA RTX 3090Ti GPU. And you need to cd to the main directory of this project.
   
-### 📊 Datasets 
-Training dataset, testing dataset, and our predictions are available at [Google Drive](https://drive.google.com/file/d/18dcUIJvDOjBc756MBXw83mW6dObKg0N5/view?usp=sharing).
-
 ### 🎯 Testing
 
 The pretrained model is in the ./weight.
@@ -23,7 +20,7 @@ python test.py
 
 ### 💻 Training
 
-To train the model, you need to prepare our training dataset.
+To train the model, you need to prepare the training dataset.
 
 Check the dataset path in train.py, and then run:
 ```
