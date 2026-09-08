@@ -1,4 +1,4 @@
-# RGRD: Retinex-Guided Re-Degradation Framework for Self-Supervised Low-Light Image Enhancement
+# Self-Supervised Low-Light Image Enhancement Guided by Re-degradation
 ## 📋 Project Overview
 
 RGRD (Retinex-Guided Re-Degradation) unifies model-driven priors and data-driven learning for noise-free and perceptually faithful low-light image enhancement in a self-supervised manner. Based on Retinex theory, RGRD employs two synergistic re-degradation mechanisms—re-noising for reflectance consistency and re-lighting for illumination invariance—to jointly disentangle reflectance and illumination while suppressing noise. The enhanced image is reconstructed by refining illumination and recombining it with denoised reflectance. A self-adaptive adjustment strategy further ensures adaptive and high-quality illumination enhancement.
